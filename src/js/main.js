@@ -7,6 +7,8 @@ import showMoreStyles from './modules/showMoreStyles'
 import calc from './modules/calc'
 import filter from './modules/filter'
 import changeSize from './modules/changeSize'
+import accordion from './modules/accordion'
+import burger from './modules/burger'
 
 window.addEventListener('DOMContentLoaded', () => {
 	'use strict'
@@ -22,4 +24,6 @@ window.addEventListener('DOMContentLoaded', () => {
 	calc('#size', '#material', '#options', '.promocode', '.calc-price')
 	filter()
 	changeSize('.sizes-block')
+	accordion('.accordion-heading')
+	burger('.burger', '.burger-menu')
 })
