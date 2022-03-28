@@ -9,6 +9,7 @@ import filter from './modules/filter'
 import changeSize from './modules/changeSize'
 import accordion from './modules/accordion'
 import burger from './modules/burger'
+import scrolling from './modules/scrolling'
 
 window.addEventListener('DOMContentLoaded', () => {
 	'use strict'
@@ -26,4 +27,5 @@ window.addEventListener('DOMContentLoaded', () => {
 	changeSize('.sizes-block')
 	accordion('.accordion-heading')
 	burger('.burger', '.burger-menu')
+	scrolling('.pageup')
 })
